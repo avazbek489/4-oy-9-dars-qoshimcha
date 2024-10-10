@@ -95,3 +95,125 @@
 // Buni yaxshi tushunmadim va ishlay olmadim
 
 // // 13-MASALA JAVOBI
+// let arr = [6, 12, 15, 9, -3, -6];
+// for (let i = 0; i < arr.length; i++) {
+//   let res = arr[i] / 3;
+//   console.log(res);
+// }
+
+// // 14-MASALA JAVOBI
+//  let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//  for (let i = 0; i < arr.length; i += 2) {
+//    console.log(arr[i]);
+//  }
+
+// // 15-MASALA JAVOBI
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   console.log(arr[i]);
+// }
+
+// // 16-MASALA JAVOBI
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 0; i < arr.length; i++) {
+//   let res = `${i + 1}-element: ${arr[i]}`;
+//   console.log(res);
+// }
+
+// // 17-MASALA JAVOBI
+// let arr = [1, 2234, 224, 342, 224, 342, 1235, 1, 7132, 71235];
+// let res = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   let cnt = 0;
+//   for (let j = 0; j < arr.length; j++) {
+//     if (arr[i] == arr[j]) {
+//       cnt++;
+//     }
+//   }
+//   if (cnt === 1) {
+//     res.push(arr[i]);
+//   }
+// }
+// for (let i = 0; i < res.length; i++) {
+//   console.log(res[i]);
+// }
+
+// // 18-MASALA JAVOBI
+// let arr = [1, "I'm", 3, "world", 23, "Mercedes", 42];
+// for (let i = 0; i < arr.length; i++) {
+//   if (typeof arr[i] === "string") {
+//     console.log(arr[i]);
+//   }
+// }
+
+// // 19-MASALA JAVOBI
+// let arr = [1, 2234, 224, 342, 224, 342, 1235, 1, 7132, 71235];
+// let res = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   let j = 0;
+//   while (j < res.length && arr[i] < res[j]) {
+//     j++;
+//   }
+//   res.splice(j, 0, arr[i]);
+// }
+// for (let i = 0; i < res.length; i++) {
+//   console.log(res[i]);
+// }
+
+// // 20-MASALA JAVOBI
+//  let arr = [1, 2234, 224, 342, 224, 342, 1235, 1, 7132, 71235];
+// let max = 0;
+// let min = 0;
+
+// for (let i = 1; i < arr.length; i++) {
+//   if (arr[i] > arr[max]) {
+//     max = i;
+//   }
+//   if (arr[i] < arr[min]) {
+//     min = i;
+//   }
+// }
+// console.log(max);
+// console.log(min);
+
+// // 21-MASALA JAVOBI
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (let i = 0; i < arr.length; i++) {
+//   let res = arr[i] * 2;
+//   console.log(res);
+// }
+
+// // 22-MASALA JAVOBI
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 0; i < arr.length; i++) {
+//   let res = i == 0 ? "Nolga bolib bomedi" : Math.trunc(arr[i] / i);
+//   console.log(res);
+// }
+
+// // 23-MASALA JAVOBI
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 1; i < arr.length; i += 2) {
+//   console.log(arr[i]);
+// }
+
+// // 24-MASALA JAVOBI
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i] = Math.abs(arr[i]);
+// }
+// console.log(arr);
+
+// // 25-MASALA JAVOBI
+// let arr = [1, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let res = "Yoq";
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == 0) {
+//     res = "Bor";
+//     break;
+//   }
+// }
+// console.log(res);
